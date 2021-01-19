@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Gallery Login</title>
+        <h1>Gallery Login</h1>
+    </head>
+    <body>
+        <form method="POST" action="">
+            <p>Username: <br>
+                <input type="text" name="user_name" id="user_name">
+            </p>
+            <p>Password: <br>
+                <input type="password" name="pwd" id="pwd">
+            </p>
+            <p style="color: red;">{{ error }}</p>
+            <input type="submit" name="btn" value="Login">
+        </form>
+    </body>
+</html>

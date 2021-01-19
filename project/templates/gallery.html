@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Gallery - Images</title>
+        <h1>Images</h1>
+    </head>
+    <body>
+        <form method="POST" action="" enctype="multipart/form-data">
+            {% for i in imgs %}
+                <p><img src="{{ i }}" style="height: 200px;">   </p>
+            {% endfor %}
+        </form>
+    </body>
+</html>
